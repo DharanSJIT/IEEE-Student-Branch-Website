@@ -32,9 +32,9 @@ const Stats = () => {
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-white/20">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-0 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
             {stats.map((stat, index) => (
-              <div key={index} className="p-4">
+              <div key={index} className="p-4 md:py-0">
                 <div className="text-4xl md:text-6xl font-heading font-extrabold mb-2 tracking-tight">
                     {isVisible ? (
                         <Counter end={stat.value} duration={2000} />
