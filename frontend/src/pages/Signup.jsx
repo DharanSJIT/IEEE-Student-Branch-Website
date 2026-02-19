@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Signup() {
   const [fullName, setFullName] = useState('');
@@ -9,6 +10,7 @@ export default function Signup() {
   const [loading, setLoading] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [passwordStrength, setPasswordStrength] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setIsVisible(true);
@@ -46,6 +48,7 @@ export default function Signup() {
     setLoading(true);
     try {
       console.log('Signup:', { email, password, fullName });
+      // navigate('/dashboard');
     } catch (err) {
       setError(err.message || 'Signup failed');
     } finally {
@@ -92,18 +95,18 @@ export default function Signup() {
       <nav className="relative z-10 border-b border-blue-100 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <a href="/" className="group cursor-pointer">
+            <Link to="/" className="group cursor-pointer">
               <span className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-all duration-300 transform group-hover:scale-105 inline-block">
                 DocManager
               </span>
               <div className="h-0.5 w-0 group-hover:w-full bg-blue-600 transition-all duration-500"></div>
-            </a>
+            </Link>
             <div className="flex gap-3">
-              <a href="/login">
+              <Link to="/login">
                 <button className="px-6 py-2 border-2 border-blue-200 text-blue-600 hover:border-blue-300 hover:bg-blue-50 rounded-lg transition-all duration-300">
                   Login
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -291,9 +294,9 @@ export default function Signup() {
 
             <p className="mt-8 text-center text-gray-600">
               Already have an account?{' '}
-              <a href="/login" className="text-blue-600 hover:text-blue-700 font-medium hover:underline transition-all duration-300">
+              <Link to="/login" className="text-blue-600 hover:text-blue-700 font-medium hover:underline transition-all duration-300">
                 Login here
-              </a>
+              </Link>
             </p>
           </div>
         </div>
