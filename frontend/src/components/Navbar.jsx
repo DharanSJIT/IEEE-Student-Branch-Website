@@ -46,22 +46,22 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || !isHome ? 'bg-white/95 backdrop-blur-md shadow-md py-3 text-gray-900 border-b border-gray-100' : 'bg-transparent py-5 text-white'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled || !isHome || true ? 'bg-white/95 backdrop-blur-md shadow-md py-3 text-gray-900 border-b border-gray-100' : 'bg-transparent py-5 text-white'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-2 group">
-            <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl transition-colors ${scrolled || !isHome ? 'bg-ieee-blue text-white' : 'bg-white text-ieee-blue group-hover:bg-blue-50'}`}>
+            <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl transition-colors ${scrolled || !isHome || true ? 'bg-ieee-blue text-white' : 'bg-white text-ieee-blue group-hover:bg-blue-50'}`}>
               IE
             </div>
-            <div className={`font-heading font-bold text-xl tracking-tight ${scrolled || !isHome ? 'text-ieee-dark' : 'text-white'}`}>
+            <div className={`font-heading font-bold text-xl tracking-tight ${scrolled || !isHome || true ? 'text-ieee-dark' : 'text-white'}`}>
               IEEE <span className="font-medium opacity-90 hidden sm:inline">Student Branch</span>
             </div>
           </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 items-center">
-            <Link to="/" className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}>
+            <Link to="/" className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome || true ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}>
                 Home
             </Link>
             
@@ -71,7 +71,7 @@ const Navbar = () => {
                 onMouseEnter={() => setIsDropdownOpen(true)}
                 onMouseLeave={() => setIsDropdownOpen(false)}
             >
-                <button className={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}>
+                <button className={`flex items-center gap-1 text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome || true ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}>
                     Chapters <ChevronDown className="w-4 h-4" />
                 </button>
                 <div className={`absolute top-full left-0 w-64 bg-white shadow-xl rounded-xl border border-gray-100 py-2 transform transition-all duration-200 origin-top-left ${isDropdownOpen ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-95 invisible'}`}>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     <button 
                         key={link.name} 
                         onClick={() => scrollToSection(link.href)}
-                        className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
+                        className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome || true ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
                     >
                         {link.name}
                     </button>
@@ -101,7 +101,7 @@ const Navbar = () => {
                     <Link 
                         key={link.name} 
                         to={`/#${link.href}`}
-                        className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
+                        className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome || true ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
                     >
                         {link.name}
                     </Link>
@@ -110,13 +110,13 @@ const Navbar = () => {
                 <Link
                     key={link.name}
                     to={link.href}
-                    className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
+                    className={`text-sm font-medium transition-colors hover:text-ieee-blue ${scrolled || !isHome || true ? 'text-gray-700' : 'text-gray-100 hover:text-white'}`}
                 >
                     {link.name}
                 </Link>
               )
             ))}
-            <button className={`px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-sm hover:shadow-md ${scrolled || !isHome ? 'bg-ieee-blue text-white hover:bg-blue-700' : 'bg-white text-ieee-blue hover:bg-gray-100'}`}>
+            <button className={`px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-sm hover:shadow-md ${scrolled || !isHome || true ? 'bg-ieee-blue text-white hover:bg-blue-700' : 'bg-white text-ieee-blue hover:bg-gray-100'}`}>
               Join IEEE
             </button>
           </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-md ${scrolled || !isHome ? 'text-gray-700 hover:text-ieee-blue' : 'text-white hover:text-gray-200'}`}
+              className={`p-2 rounded-md ${scrolled || !isHome || true ? 'text-gray-700 hover:text-ieee-blue' : 'text-white hover:text-gray-200'}`}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
