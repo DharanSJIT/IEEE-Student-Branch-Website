@@ -7,6 +7,7 @@ import AboutPage from './pages/About';
 import EventsPage from './pages/EventsPage';
 import TeamPage from './pages/Team';
 import ContactPage from './pages/Contact';
+import GalleryPage from './pages/Gallery';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/team" element={<TeamPage />} />
+                <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/chapter/:id" element={<ChapterDetails />} />
             </Routes>

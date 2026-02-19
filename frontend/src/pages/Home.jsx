@@ -6,9 +6,7 @@ import Stats from '../components/Stats';
 import Chapters from '../components/Chapters';
 import Benefits from '../components/Benefits';
 import NewsSection from '../components/NewsSection';
-import Gallery from '../components/Gallery';
 import Events from '../components/Events';
-import Testimonials from '../components/Testimonials';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import Resources from '../components/Resources';
@@ -37,11 +35,9 @@ function Home() {
             <div id="about"><About /></div>
             <div id="chapters"><Chapters /></div>
             <NewsSection />
-            <Gallery />
             <div id="events"><Events /></div>
             <div id="benefits"><Benefits /></div>
             <div id="resources"><Resources /></div>
-            <Testimonials />
             <div id="team"><Team /></div>
             <Partners />
             <div id="contact"><Contact /></div>

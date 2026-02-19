@@ -119,7 +119,7 @@ const Footer = () => {
 
                 <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-slate-500 text-center md:text-left">
-                        &copy; {new Date().getFullYear()} IEEE Student Branch. All rights reserved. <br className="md:hidden"/> Designed with <Heart className="w-3 h-3 inline text-red-500 mx-1" /> by Web Team.
+                        &copy; {new Date().getFullYear()} IEEE Student Branch. All rights reserved. <br className="md:hidden"/> Designed with <Heart className="w-3 h-3 inline text-red-500 mx-1" /> by Syntax Errors.
                     </p>
                     <div className="flex gap-6 text-xs text-slate-500">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

@@ -15,11 +15,11 @@ export const chaptersData = [
         { title: 'IEEE Computational Intelligence Magazine', link: '#' }
     ],
     representatives: [
-      { role: 'Chairperson', name: 'Alex Johnson', image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Vice Chair', name: 'Samantha Lee', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Secretary', name: 'Michael Chen', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Treasurer', name: 'Emily Davis', image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Webmaster', name: 'David Wilson', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
+      { role: 'Chairperson', name: 'Shanmathi', image: 'https://ik.imagekit.io/ChrisHalden/image1.png' },
+      { role: 'Vice Chair', name: 'Saravanakrishnan', image: 'https://ik.imagekit.io/ChrisHalden/sara' },
+      { role: 'Secretary', name: 'Sandhya G', image: 'https://ik.imagekit.io/ChrisHalden/san' },
+      { role: 'Treasurer', name: 'Vishwa', image: 'https://ik.imagekit.io/ChrisHalden/VIS' },
+      { role: 'Webmaster', name: 'Yogashree', image: 'https://ik.imagekit.io/ChrisHalden/image.png' },
     ],
     pastEvents: [
       { title: 'Intro to Neural Networks', date: 'Jan 15, 2024', description: 'A hands-on workshop covering the basics of neural networks and backpropagation.', type: 'Workshop' },
@@ -47,11 +47,11 @@ export const chaptersData = [
         { title: 'IEEE CAS Magazine', link: '#' }
     ],
     representatives: [
-      { role: 'Chairperson', name: 'Robert Brown', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Vice Chair', name: 'Laura White', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Secretary', name: 'James Wilson', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Treasurer', name: 'Sophia Martinez', image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Webmaster', name: 'Daniel Garcia', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
+      { role: 'Chairperson', name: 'Shanmathi', image: 'https://ik.imagekit.io/ChrisHalden/image1.png' },
+      { role: 'Vice Chair', name: 'Saravanakrishnan', image: 'https://ik.imagekit.io/ChrisHalden/sara' },
+      { role: 'Secretary', name: 'Sandhya G', image: 'https://ik.imagekit.io/ChrisHalden/san' },
+      { role: 'Treasurer', name: 'Vishwa', image: 'https://ik.imagekit.io/ChrisHalden/VIS' },
+      { role: 'Webmaster', name: 'Yogashree', image: 'https://ik.imagekit.io/ChrisHalden/image.png' },
     ],
     pastEvents: [
       { title: 'VLSI Design Workshop', date: 'Nov 12, 2023', description: 'Introduction to Verilog and FPGA programming.', type: 'Workshop' },
@@ -78,11 +78,11 @@ export const chaptersData = [
         { title: 'IEEE SMC Magazine', link: '#' }
     ],
     representatives: [
-      { role: 'Chairperson', name: 'Jessica Taylor', image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Vice Chair', name: 'William Thomas', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Secretary', name: 'Olivia Anderson', image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Treasurer', name: 'Matthew Jackson', image: 'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Webmaster', name: 'Lucas Harris', image: 'https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
+      { role: 'Chairperson', name: 'Shanmathi', image: 'https://ik.imagekit.io/ChrisHalden/image1.png' },
+      { role: 'Vice Chair', name: 'Saravanakrishnan', image: 'https://ik.imagekit.io/ChrisHalden/sara' },
+      { role: 'Secretary', name: 'Sandhya G', image: 'https://ik.imagekit.io/ChrisHalden/san' },
+      { role: 'Treasurer', name: 'Vishwa', image: 'https://ik.imagekit.io/ChrisHalden/VIS' },
+      { role: 'Webmaster', name: 'Yogashree', image: 'https://ik.imagekit.io/ChrisHalden/image.png' },
     ],
     pastEvents: [
       { title: 'Human-Robot Interaction', date: 'Oct 20, 2023', description: 'Seminar on the future of collaborative robotics.', type: 'Seminar' },
@@ -108,11 +108,11 @@ export const chaptersData = [
         { title: 'Journal on Selected Areas in Information Theory', link: '#' }
     ],
     representatives: [
-      { role: 'Chairperson', name: 'Dr. Alan Turing', image: 'https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Vice Chair', name: 'Grace Hopper', image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' }, // Placeholder names/imgs
-      { role: 'Secretary', name: 'Claude Shannon', image: 'https://images.unsplash.com/photo-1522075469751-3a3694c2dd77?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Treasurer', name: 'Ada Lovelace', image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
-      { role: 'Webmaster', name: 'Tim Berners', image: 'https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' },
+      { role: 'Chairperson', name: 'Shanmathi', image: 'https://ik.imagekit.io/ChrisHalden/image1.png' },
+      { role: 'Vice Chair', name: 'Saravanakrishnan', image: 'https://ik.imagekit.io/ChrisHalden/sara' },
+      { role: 'Secretary', name: 'Sandhya G', image: 'https://ik.imagekit.io/ChrisHalden/san' },
+      { role: 'Treasurer', name: 'Vishwa', image: 'https://ik.imagekit.io/ChrisHalden/VIS' },
+      { role: 'Webmaster', name: 'Yogashree', image: 'https://ik.imagekit.io/ChrisHalden/image.png' },
     ],
     pastEvents: [
       { title: 'Coding Theory Basics', date: 'Feb 20, 2024', description: 'Understanding error correction codes.', type: 'Workshop' },

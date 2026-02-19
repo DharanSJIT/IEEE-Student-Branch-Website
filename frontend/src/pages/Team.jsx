@@ -4,45 +4,38 @@ import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
 
 const team = [
   {
-    name: 'Jane Doe',
+    name: 'Shanmathi',
     role: 'Chairperson',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    image: 'https://ik.imagekit.io/ChrisHalden/image1.png',
     bio: 'Leading with vision and passion.',
     socials: { linkedin: '#', twitter: '#', mail: '#' },
   },
   {
-    name: 'John Smith',
+    name: 'Saravanakrishnan',
     role: 'Vice Chairperson',
-    image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    image: 'https://ik.imagekit.io/ChrisHalden/sara',
     bio: 'Dedicated to operational excellence.',
     socials: { linkedin: '#', twitter: '#', mail: '#' },
   },
   {
-    name: 'Emily Davis',
+    name: 'Sandhya G',
     role: 'Secretary',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    image: 'https://ik.imagekit.io/ChrisHalden/san',
     bio: 'Keeping the records straight and clear.',
     socials: { linkedin: '#', twitter: '#', mail: '#' },
   },
-   {
-    name: 'Michael Brown',
+  {
+    name: 'Vishwa',
     role: 'Treasurer',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    image: 'https://ik.imagekit.io/ChrisHalden/VIS',
     bio: 'Managing finances for a sustainable future.',
     socials: { linkedin: '#', twitter: '#', mail: '#' },
   },
   {
-    name: 'Sarah Wilson',
+    name: 'Yogashree',
     role: 'Webmaster',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    image: 'https://ik.imagekit.io/ChrisHalden/image.png',
     bio: 'Crafting digital experiences.',
-    socials: { linkedin: '#', twitter: '#', mail: '#' },
-  },
-  {
-    name: 'David Lee',
-    role: 'Event Coordinator',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    bio: 'Creating memorable events.',
     socials: { linkedin: '#', twitter: '#', mail: '#' },
   },
 ];

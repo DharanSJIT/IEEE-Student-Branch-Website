@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Target, Users, Globe, BookOpen, ExternalLink } from 'lucide-react';
+import Testimonials from '../components/Testimonials';
 
 const AboutPage = () => {
     return (
@@ -104,6 +105,10 @@ const AboutPage = () => {
                             Read Full History <ExternalLink className="w-4 h-4" />
                         </button>
                      </div>
+                </div>
+
+                <div className="mt-24">
+                    <Testimonials />
                 </div>
 
             </div>
